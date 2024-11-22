@@ -1,0 +1,80 @@
+/* Card Styling */
+.concrete-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.concrete-card-container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+}
+.concrete-card {
+  position: absolute;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100em;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin: 20em auto;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+.card-header {
+  text-align: center;
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 0.75em;
+  text-align: center;
+}
+
+.concrete-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.concrete-card .features {
+  margin: 5em 0 0 3em;
+}
+
+.concrete-card .features li {
+  list-style: none;
+  margin-top: 1em;
+  font-size: 1.5em;
+}
+
+.flex-row-center {
+  display: flex;
+  align-items: center;
+}
+/* start of questions*/
+.concrete-features-header {
+  width: 40%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2em;
+  height: 2em;
+  border: 2px solid #555;
+  border-radius: 50%;
+  margin-right: 2em;
+  font-weight: 900;
+  cursor: pointer;
+}

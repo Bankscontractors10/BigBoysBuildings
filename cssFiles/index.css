@@ -1,0 +1,55 @@
+/*body content*/
+.body-information-container {
+  position: relative;
+  background: linear-gradient(
+    to left top,
+    #eee 90%,
+    #3c98d1 90%,
+    #3c98d1 91%,
+    #d21312,
+    #d21312 20%
+  );
+  opacity: 0.92;
+  height: 30rem;
+  width: 50rem;
+  right: -5em;
+  top: 24em;
+  z-index: 2;
+}
+.container {
+  position: relative;
+}
+.svg {
+  width: 25px;
+  padding-right: 20px;
+}
+.svg-container {
+  display: flex;
+  justify-content: center;
+}
+
+.information-content {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.35rem;
+}
+
+.information-content > * {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.index-content {
+  position: absolute;
+  z-index: 1;
+  background-color: beige;
+  width: 100vw;
+}
+
+@media screen and (max-width: 991px) {
+  .body-information-container {
+    top: 60em;
+  }
+}
